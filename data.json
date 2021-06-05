@@ -1,0 +1,49 @@
+{
+    "base_url": "https://demo23.opencart.pro/index.php",
+    "add_product_url": "?route=checkout/cart/add",
+    "products" : [
+        ["46", "2"],
+        ["48", "2"]
+    ],
+    "links" : [
+        ["?route=checkout/checkout", "GET"],
+        ["?route=checkout/login", "GET"],
+        ["?route=checkout/guest", "GET"],
+        ["?route=checkout/checkout/customfield&customer_group_id=1", "GET"],
+        ["?route=checkout/checkout/country", "GET"],
+        ["?route=checkout/guest/save", "POST"],
+        ["?route=checkout/shipping_method", "GET"],
+        ["?route=checkout/guest_shipping", "GET"],
+        ["?route=checkout/checkout/country", "GET"],
+        ["?route=checkout/shipping_method/save", "POST"],
+        ["?route=checkout/payment_method", "GET"],
+        ["?route=checkout/payment_method/save", "POST"],
+        ["?route=checkout/confirm", "GET"],
+        ["?route=extension/payment/bank_transfer/confirm&_=%s", "TIME"],
+        ["?route=checkout/success", "GET"]
+    ],
+    "userdata" : {
+        "customer_group_id": "1",
+        "firstname": "Ivan",
+        "lastname": "Petrov",
+        "email": "yourmail@gmail.com",
+        "telephone": "+7050911111",
+        "fax": "", 
+        "password": "12345",
+        "confirm": "12345",
+        "company": "",
+        "address_1": "Someadress",
+        "address_2": "Someadress",
+        "city": "Kharkiv",
+        "postcode": "61202",
+        "country_id": "220",
+        "zone_id": "4224",
+        "shipping_address": "1",
+        "agree": "1",
+        "shipping_method": "flat.flat", 
+        "comment": "",
+        "payment_method": "bank_transfer",
+        "comment": "", 
+        "agree": "1"
+    }
+}
