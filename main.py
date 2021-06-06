@@ -24,7 +24,8 @@ def urlprobe(r, url):
 def addProductTocart(url, data):
         datas = {
             "product_id": data[0],
-            "quantity": data[1]}
+            "quantity": data[1]
+            }
         res = r.post(url, data=datas)
         print(json.loads(res.text))
         return res
