@@ -2,9 +2,10 @@
 import json
 import requests
 from datetime import datetime
+import os
+cwd = os.getcwd()
 
-
-with open("/Users/user/Documents/my_projects/opencart-test/data.json", "r") as settings:
+with open(cwd+"data.json", "r") as settings:
     settings = json.load(settings)
 
 
