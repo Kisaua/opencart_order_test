@@ -5,7 +5,7 @@ from datetime import datetime
 import os
 cwd = os.getcwd()
 
-with open(cwd+"data.json", "r") as settings:
+with open(cwd+"/data.json", "r") as settings:
     settings = json.load(settings)
 
 
